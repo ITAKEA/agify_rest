@@ -7,7 +7,7 @@ function DataComponent() {
   const [data, setData] = useState(null);
 
   const fetchData = async () => {
-    const response = await fetch('http://localhost:8080/data', {
+    const response = await fetch('http://108.142.142.175:8080/data', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
